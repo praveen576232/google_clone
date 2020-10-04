@@ -1,0 +1,84 @@
+.serachpage_header > img{
+height: 30px;
+margin-right: 40px;
+margin-top: 6px;
+}
+
+.serach_page_header{
+   margin-top: 20px;
+   margin-left: 20px;
+    display: flex;
+    border-bottom: 1px solid lightgray;
+}
+.serachresultpage_header{
+    display: flex;
+  margin-top: 10px;
+    align-items: center;
+   
+}
+.serachpage__header > .serach > .mainbody__serach {
+    margin-top: 0;
+    width: unset;
+    height: unset;
+
+   
+}
+.serachresultpage_option{
+   padding: 10px;
+    display: flex;
+   cursor: pointer;
+    color:gray;
+}
+.serachresulrpage_options_left {
+   justify-content: center;
+   align-items: center;
+    display: flex;
+}
+.serachresulrpage_options_right{
+    margin-left: 30px;
+    text-align:center;
+  cursor: pointer;
+  color:gray;
+    display: flex;
+}
+.serachresulrpage_options_right >p{
+    font-size: small;
+    margin-left: 15px;
+}
+.serachresultpage_option >p {
+    margin-left: 2px;
+    font-size: small;
+    text-align: center;
+    margin-right: 15px;
+}
+.serachresultpage_option-active{
+color:rgb(20, 71, 240);
+    border-bottom: 3px solid rgb(0, 60, 255);
+}
+
+.result_page{
+    margin-top: 10px;
+}
+.display_result_page{
+    margin-top: 30px;
+    margin-left: 150px;
+}
+.result_page_info{
+    margin-left: 150px;
+    color: grey;
+}
+.result_page_title{
+    text-decoration: none;
+}
+.result_page_title:hover{
+    text-decoration: underline;
+}
+.result_page_snappet{
+    margin-top: 10px;
+}
+.result_page_image >img{
+    object-fit: contain;
+    height: 20px;
+    width: 20px;
+    margin-right: 10px;
+}

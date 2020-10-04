@@ -1,0 +1,82 @@
+.mainbody{
+    display: grid;
+    place-items: center;
+    align-items: center;
+}
+.mainbody__items > img{
+height: 130px;
+object-fit: cover;
+margin-bottom: 20px;
+margin-top: 70px;
+}
+.mainbody__items{
+    display: flex;
+    width: 500px;
+    flex-direction: column;
+}
+
+.mainbody__serach{
+    display: flex;
+    align-items: center;
+    border: 1px solid lightgray;
+    padding: 10px;
+    border-radius: 20px;
+}
+.serach_icon{
+    color:gray;
+}
+
+.mainbody__serach:hover{
+    box-shadow: 1px 1px 1px 1px lightgray;
+}
+.mainbody_buttons{
+    margin-top: 20px;
+    align-self: center;
+    display:flex;
+  
+
+}
+
+.mainbody_buttons button{
+    margin: 5px;
+    background-color: #f8f8f8;
+    color: #5f6368;
+    border: 1px solid white;
+    text-transform: inherit;
+}
+.mainbody_buttons button:hover{
+    background-image: -webkit-linear-gradient(top,#f8f8f8,#f1f1f1);
+    color: #222;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    border: 1px solid #c6c6c6;
+}
+.mainbody_lang{
+    width: 200vw;
+    margin-top: 20px;
+    display: flex;
+   
+    align-items: center;
+}
+.mainbody_google_lang_offered{
+    font-size: smaller;
+    text-align: center;
+    margin-right: 8px;
+}
+.mainbody_lang >p {
+    font-size: smaller;
+    text-align: center;
+}
+.mainbody_lang_link{
+    display: flex;
+    align-items: center;
+}
+.mainbody_lang_link >p{
+    text-align: center;
+    font-size: small;
+    margin-right: 8px;
+    cursor: pointer;
+color:blue;
+}
+.mainbody_lang_link >p:hover{
+    text-decoration: underline;
+}
